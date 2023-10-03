@@ -17,6 +17,11 @@ const users = [
     name: 'Quincy Larson',
     isFollowing: true
   },
+  {
+    userName: 'Michel',
+    name: 'Michel Hernandez',
+    isFollowing: true
+  },
 ]
  
 export function App (){
