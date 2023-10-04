@@ -1,6 +1,4 @@
 import './App.css'
-import { TwitterFollowCard } from './TwitterFollowCard'
-import { Quiz } from './Quiz'
 
 const users = [
   {
@@ -33,7 +31,7 @@ const users = [
 export function App (){
   return (
     <>
-       
+      <h1>Hola mundo!</h1>
     </>    
   )
 }
