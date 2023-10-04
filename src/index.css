@@ -14,5 +14,8 @@ body {
 }
 
 .ItemQuiz{
-  border: 1px solid #000;
+  border: 1px solid #adadad;
+  padding: 30px;
+  border-radius: 2%;
+  margin-top:10px;
 }
