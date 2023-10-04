@@ -49,7 +49,7 @@ export function Quiz() {
   };
 
   return (
-    <div>
+    <div className='ItemQuiz'>
       <h1>Test de Conocimientos</h1>
       {preguntas.map((pregunta, index) => (
         <div key={index} className="pregunta">
