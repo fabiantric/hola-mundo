@@ -1,5 +1,6 @@
 import './App.css'
 import { TwitterFollowCard } from './TwitterFollowCard'
+import { Quiz } from './Quiz'
 
 const users = [
   {
@@ -31,17 +32,8 @@ const users = [
  
 export function App (){
   return (
-    <section className="App">
-      {
-        users.map(({ userName, name, isFollowing }) => (
-          <TwitterFollowCard
-            key={userName} 
-            userName={userName} 
-            name={name}
-            initialIsFollowing={isFollowing}
-          />
-        ))
-      }     
-    </section>
+    <>
+       
+    </>    
   )
 }
